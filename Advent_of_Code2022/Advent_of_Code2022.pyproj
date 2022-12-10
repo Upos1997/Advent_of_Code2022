@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c6d75768-3b10-4041-b709-e48dc60088ad</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Advent_of_Code2022.py</StartupFile>
+    <StartupFile>AoC\day5\supply_stacks.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,50 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Advent_of_Code2022.py" />
+    <Compile Include="AoC\day1\Calorie Counting.py" />
+    <Compile Include="AoC\day2\Rock_Paper_Scissors.py" />
+    <Compile Include="AoC\day3\rucksack.py" />
+    <Compile Include="AoC\day4\cleaning.py" />
+    <Compile Include="AoC\day5\supply_stacks.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AoC\" />
+    <Folder Include="AoC\day1\" />
+    <Folder Include="AoC\day2\" />
+    <Folder Include="AoC\day3\" />
+    <Folder Include="AoC\day3\.vs\" />
+    <Folder Include="AoC\day3\.vs\day3\" />
+    <Folder Include="AoC\day3\.vs\day3\FileContentIndex\" />
+    <Folder Include="AoC\day3\.vs\day3\FileContentIndex\merges\" />
+    <Folder Include="AoC\day3\.vs\day3\v17\" />
+    <Folder Include="AoC\day4\" />
+    <Folder Include="AoC\day4\.vs\" />
+    <Folder Include="AoC\day4\.vs\day4\" />
+    <Folder Include="AoC\day4\.vs\day4\FileContentIndex\" />
+    <Folder Include="AoC\day4\.vs\day4\FileContentIndex\merges\" />
+    <Folder Include="AoC\day4\.vs\day4\v17\" />
+    <Folder Include="AoC\day5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AoC\day1\input.txt" />
+    <Content Include="AoC\day2\input.txt" />
+    <Content Include="AoC\day3\.vs\day3\FileContentIndex\106c432a-912e-4169-8eec-43a00164dbd1.vsidx" />
+    <Content Include="AoC\day3\.vs\day3\FileContentIndex\6b946e8d-ec3c-407f-bced-84c6ced8f1d8.vsidx" />
+    <Content Include="AoC\day3\.vs\day3\FileContentIndex\d49008d9-1257-4842-9adf-d2b94b0ed8ff.vsidx" />
+    <Content Include="AoC\day3\.vs\day3\FileContentIndex\read.lock" />
+    <Content Include="AoC\day3\.vs\day3\v17\.wsuo" />
+    <Content Include="AoC\day3\.vs\PythonSettings.json" />
+    <Content Include="AoC\day3\.vs\slnx.sqlite" />
+    <Content Include="AoC\day3\.vs\VSWorkspaceState.json" />
+    <Content Include="AoC\day3\input.txt" />
+    <Content Include="AoC\day4\.vs\day4\FileContentIndex\4b2dcb08-e0df-45d8-9847-475ac29aabf8.vsidx" />
+    <Content Include="AoC\day4\.vs\day4\FileContentIndex\5ab60aa3-b7be-4631-b15e-f70f60a3c23c.vsidx" />
+    <Content Include="AoC\day4\.vs\day4\FileContentIndex\read.lock" />
+    <Content Include="AoC\day4\.vs\day4\v17\.wsuo" />
+    <Content Include="AoC\day4\.vs\slnx.sqlite" />
+    <Content Include="AoC\day4\.vs\VSWorkspaceState.json" />
+    <Content Include="AoC\day4\input.txt" />
+    <Content Include="AoC\day5\input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
